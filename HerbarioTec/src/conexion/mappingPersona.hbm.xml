@@ -17,4 +17,5 @@
   <property name="acronimo">
       <column name="Acronimo"></column>
   </property>
+</class>
 </hibernate-mapping>

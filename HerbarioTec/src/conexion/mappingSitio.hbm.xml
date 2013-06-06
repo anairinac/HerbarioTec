@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="herbariotec.Sitio" table="Sitios">
+  <id column="NombreSitio" name="nombreSitio" type="String">
+      <generator class="assigned"></generator>
+  </id>
+  <property name="ciudad">
+      <column name="Ciudad"></column>
+  </property>
+  <property name="pais">
+      <column name="Pais"></column>
+  </property>
+  <property name="nombreContacto">
+      <column name="NombreContacto"></column>
+  </property>
+  <property name="telefono">
+      <column name="Telefono"></column>
+  </property>
+  <property name="correoElectronico">
+      <column name="CorreoElectronico"></column>
+  </property>
+</class>
+</hibernate-mapping>

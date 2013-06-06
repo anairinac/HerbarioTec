@@ -8,5 +8,6 @@
     <property name="hibernate.connection.username">ninauser</property>
     <property name="hibernate.connection.password">123</property>
     <mapping resource="conexion/mappingPersona.hbm.xml"/>
+    <mapping resource="conexion/mappingSitio.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>
