@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="herbariotec.Persona" table="Personas"/>
+  <id column="Identificacion" name="identificacion" type="int">
+      <generator class="assigned"></generator>
+  </id>
+  <property name="nombre">
+      <column name="Nombre"></column>
+  </property>
+  <property name="primerApellido">
+      <column name="PrimerApellido"></column>
+  </property>
+  <property name="segundoApellido">
+      <column name="SegundoApellido"></column>
+  </property>
+  <property name="acronimo">
+      <column name="Acronimo"></column>
+  </property>
+</hibernate-mapping>
