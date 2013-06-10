@@ -9,5 +9,13 @@
     <property name="hibernate.connection.password">123</property>
     <mapping resource="conexion/mappingPersona.hbm.xml"/>
     <mapping resource="conexion/mappingSitio.hbm.xml"/>
+    <mapping resource="conexion/mappingClasificacion.hbm.xml"/>
+    <mapping resource="conexion/mappingDuplicado.hbm.xml"/>
+    <mapping resource="conexion/mappingGira.hbm.xml"/>
+    <mapping resource="conexion/mappingHistorial.hbm.xml"/>
+    <mapping resource="conexion/mappingImagen.hbm.xml"/>
+    <mapping resource="conexion/mappingMuestra.hbm.xml"/>
+    <mapping resource="conexion/mappingPrestamo.hbm.xml"/>
+    <mapping resource="conexion/mappingRecolecta.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>

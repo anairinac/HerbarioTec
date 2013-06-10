@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="herbariotec.Prestamo" table="Prestamos">
+        <id name="identificacion" column="IdPrestamo">
+            <generator class="assigned"></generator>
+        </id>
+        <property name="acronimoMuestra">
+            <column name="AcronimoMuestra"></column>
+        </property>
+        <property name="consecutivoMuestra">
+            <column name="ConsecutivoMuestra"></column>
+        </property>
+        <property name="destino">
+            <column name="Destino"></column>
+        </property>
+        <property name="cantidad">
+            <column name="Cantidad"></column>
+        </property>
+    </class>
+</hibernate-mapping>

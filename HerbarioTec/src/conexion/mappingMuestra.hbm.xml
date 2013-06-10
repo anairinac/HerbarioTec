@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="herbariotec.Muestra" table="Muestras">
+        <composite-id>
+            <key-property name="acronimo" column="Acronimo"></key-property>
+            <key-property name="consecutivo" column="Consecutivo"></key-property>
+        </composite-id>
+        <property name="recolecta">
+            <column name="Recolecta"></column>
+        </property>
+        <property name="recolector">
+            <column name="Recolector"></column>
+        </property>
+        <property name="identificador">
+            <column name="Identificador"></column>
+        </property>
+        <property name="asistenteHerbario">
+            <column name="AsistenteHerbario"></column>
+        </property>
+        <property name="fechaRecoleccion">
+            <column name="FechaRecoleccion"></column>
+        </property>
+        <property name="FechaIdentificacion">
+            <column name="fechaIdentificacion"></column>
+        </property>
+        <property name="nivelIdentificacion">
+            <column name="NivelIdentificacion"></column>
+        </property>
+        <property name="cantidadDuplicados">
+            <column name="CantidadDuplicados"></column>
+        </property>
+        <property name="numeroPartes">
+            <column name="NumeroPartes"></column>
+        </property>
+        <property name="descripcionMorfologica">
+            <column name="DescripcionMorfologica"></column>
+        </property>
+        <property name="fenologia">
+            <column name="Fenologia"></column>
+        </property>
+        <property name="habito">
+            <column name="Habito"></column>
+        </property>
+        <property name="latitud">
+            <column name="Latitud"></column>
+        </property>
+        <property name="longitud">
+            <column name="Longitud"></column>
+        </property>
+        <property name="coordX">
+            <column name="X"></column>
+        </property>
+        <property name="coordY">
+            <column name="Y"></column>
+        </property>
+    </class>
+</hibernate-mapping>

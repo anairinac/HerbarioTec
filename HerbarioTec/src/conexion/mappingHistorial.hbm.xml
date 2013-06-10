@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="herbariotec.EntradaHistorial" table="HistorialClasificaciones">
+        <id name="identificacion" column="IdClasificacion">
+            <generator class="assigned"></generator>
+        </id>
+        <property name="acronimoMuestra">
+            <column name="AcronimoMuestra"></column>
+        </property>
+        <property name="consecutivoMuestra">
+            <column name="ConsecutivoMuestra"></column>
+        </property>
+        <property name="fecha">
+            <column name="Fecha"></column>
+        </property>
+        <property name="familia">
+            <column name="Familia"></column>
+        </property>
+        <property name="genero">
+            <column name="Genero"></column>
+        </property>
+        <property name="especie">
+            <column name="Especie"></column>
+        </property>
+        <property name="autor">
+            <column name="Autor"></column>
+        </property>
+    </class>
+</hibernate-mapping>

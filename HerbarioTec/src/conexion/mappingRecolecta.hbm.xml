@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="herbariotec.Recolecta" table="Recolectas">
+        <id name="identificacion" column="IdRecolecta">
+            <generator class="assigned"></generator>
+        </id>
+        <property name="gira">
+            <column name="Gira"></column>
+        </property>
+        <property name="latitud">
+            <column name="Latitud"></column>
+        </property>
+        <property name="longitud">
+            <column name="Longitud"></column>
+        </property>
+        <property name="coordX">
+            <column name="X"></column>
+        </property>
+        <property name="coordY">
+            <column name="Y"></column>
+        </property>
+        <property name="elevacion">
+            <column name="Elevacion"></column>
+        </property>
+        <property name="provincia">
+            <column name="Provincia"></column>
+        </property>
+        <property name="canton">
+            <column name="Canton"></column>
+        </property>
+        <property name="distrito">
+            <column name="Distrito"></column>
+        </property>
+        <property name="areaConservacion">
+            <column name="AreaConservacion"></column>
+        </property>
+        <property name="areaProtegida">
+            <column name="AreaProtegida"></column>
+        </property>
+        <property name="zonaVida">
+            <column name="ZonaVida"></column>
+        </property>
+        <property name="coberturaTierra">
+            <column name="CoberturaTierra"></column>
+        </property>
+    </class>
+</hibernate-mapping>
